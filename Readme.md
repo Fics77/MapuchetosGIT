@@ -1,4 +1,4 @@
-<img src="images/escudomapuchetostransparente.png">
+<img src="images/escudomapuchetostrasparente.png">
 
 # Desarrollo Web - Mapuchetos FC
 
