@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a60000;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #0d0e40;
+}
+
+.gridHeader{
+    display: grid;
+    grid-template-areas: 
+    "logo titulo redesSociales"
+    "nav nav nav";
+    grid-template-columns: 15% 70% 15%;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.titulo{
+    grid-area: titulo;
+}
+
+.redesSociales{
+    grid-area: redesSociales;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a   {
+    text-decoration: none;
+}
+.navbar{
+    color: black;
+    border: 3px solid black;
+    min-width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(105, 99, 99);
+    border-radius: 20%;
+}
+
+.headerlogo{
+    width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+
+}
+
+.headertexto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.headerredSocial{
+    font-size: 25px;
+    margin: 0px 8px 0px 8px;
+    color: rgb(105, 99, 99);
+}
+
+.navbar:hover{
+    background-color:rgb(190, 182, 182)
+}
+
+.tabla{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tabla__titulo{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.tabla__tabla{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: lightgreen;
+    font-size: 30px;
+    margin-left: 385px;
+}
+
+.noticias{
+    text-align: center;
+}
+
+.noticias__titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.noticias__titulosH3{
+    font-size: 40px;
+}
+
+
+.noticias__texto{
+    font-size: 18px;
+    font-weight: 300px;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.noticias__fotoUno{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.noticias__fotoDos{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.noticias__fotoTres{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: white;
+}
+
+.gridFooter{
+    display: grid;
+    grid-template-areas:
+    "tituloFooter"
+    "icono"
+    "derechos";
+}
+
+.tituloFooter{
+    grid-area: tituloFooter;
+}
+
+.icono{
+    grid-area: icono;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.derechos{
+    grid-area: derechos;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.footerIcono{
+    font-size: 30px;
+}
+
+.footerDerechos{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/*768*/
+/*desde es min-width*
+  hasta max-width/
+/*360*/
+
+@media (max-width: 768px) {
+    .gridHeader{
+        grid-template-areas:
+        "logo"
+        "titulo"
+        "redesSociales"
+        "nav";
+    }
+}
