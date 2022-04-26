@@ -39,7 +39,7 @@ header{
     grid-area: nav;
     display: flex;
     justify-content: space-around;
-    background-color: white;
+    background-image: linear-gradient(#0d0e40, #a60000);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -49,13 +49,12 @@ a   {
 }
 .navbar{
     color: black;
-    border: 3px solid black;
-    min-width: 150px;
+    min-width: 120px;
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(105, 99, 99);
-    border-radius: 20%;
+    background-color: white;
+    border-radius: 5%;
 }
 
 .headerlogo{
@@ -150,7 +149,7 @@ a   {
 }
 
 footer{
-    background-color: white;
+    background-image: linear-gradient(#a60000,#0d0e40);
 }
 
 .gridFooter{

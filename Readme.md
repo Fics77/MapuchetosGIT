@@ -7,4 +7,3 @@ Esta página trata sobre el club Mapuchetos FC. Un club de amigos creado en 2005
 ## Demo
 
 Para ingresar a la página apretá el siguiente [link](https://fics77.github.io/MapuchetosGIT/).
-
