@@ -14,22 +14,22 @@
 </head>
 
 <body>
-
+    <div class="container-fluid">
     <header>
-        <nav class="gridHeader">
-            <div class="logo animate__animated animate__fadeInLeft">
-                <a href="index.html"><img class="headerlogo" src="images/escudomapuchetostrasparente.png"
+        <nav class="row">
+            <div class="col-lg-2 animate__animated animate__fadeInLeft">
+                <a href="index.html"><img class="logo" src="images/escudomapuchetostrasparente.png"
                         alt="escudo de Mapuchetos FC" title="Mapuchetos FC"></a>
             </div>
-            <div class="titulo">
-                <h1 class="headertexto animate__animated animate__fadeInDown">#EstoEsMapuchetos</h1>
+            <div class="col-lg-8">
+                <h1 class="tituloHeader animate__animated animate__fadeInDown">#EstoEsMapuchetos</h1>
             </div>
-            <div class="redesSociales animate__animated animate__fadeInRight">
-                <a href="https://www.instagram.com/mapuchetos/" class="headerredSocial"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.youtube.com/user/mapuchetos" class="headerredSocial"><i class="bi bi-youtube"></i></a>
-                <a href="https://www.facebook.com/Mapuchetos/" class="headerredSocial"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.tiktok.com/@mapuchetosfc" class="headerredSocial"><i class="bi bi-tiktok"></i></a>
-                <a href="https://open.spotify.com/playlist/0qT0Mk4iKQDX2jlIhhnej4" class="headerredSocial"><i class="bi bi-spotify"></i></a>
+            <div class="col-lg-2 animate__animated animate__fadeInRight iconosHeader">
+                <a href="https://www.instagram.com/mapuchetos/" class="iconoHeader"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.youtube.com/user/mapuchetos" class="iconoHeader"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.facebook.com/Mapuchetos/" class="iconoHeader"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.tiktok.com/@mapuchetosfc" class="iconoHeader"><i class="bi bi-tiktok"></i></a>
+                <a href="https://open.spotify.com/playlist/0qT0Mk4iKQDX2jlIhhnej4" class="iconoHeader"><i class="bi bi-spotify"></i></a>
             </div>
             <div class="nav">
                 <a class="navbar" href="pages/noticias.html">Noticias</a>
@@ -41,9 +41,13 @@
     </header>
 
     <main>
-        <section class="tabla">
-            <h2 class="tabla__titulo">Tabla de posiciones</h2>
-            <table border="1" cellpadding="5" cellspacing="5" class="tabla__tabla">
+        <section class="tabla row">
+            <div>
+                <h2 class="tituloPrincipalTabla">Tabla de posiciones</h2>
+                <h3 class="tituloSecundarioTabla">Torneo apertura "El Trébol"</h3>
+            </div>
+            <div>
+            <table border="1" cellpadding="5" cellspacing="5" class="tablaTabla col-lg-6 offset-lg-3">
                 <tr>
                     <th>Equipos</th>
                     <th>PJ</th>
@@ -53,54 +57,81 @@
                     <th>PTS</th>
                 </tr>
                 <tr>
-                    <td>Mapuchetos</td>
-                    <td>6</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>13</td>
-                </tr>
-                <tr>
-                    <td>Showtime FC</td>
-                    <td>5</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>13</td>
-                </tr>
-                <tr>
                     <td>Te Quiero Afuera</td>
-                    <td>4</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td>El Tricolor (eliminado)</td>
-                    <td>3</td>
+                    <td>2</td>
                     <td>2</td>
                     <td>0</td>
-                    <td>1</td>
+                    <td>0</td>
                     <td>6</td>
                 </tr>
                 <tr>
-                    <td>25 de Mayo</td>
-                    <td>5</td>
+                    <td>Mapuchetos</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Cafeteros FC "A"</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Santa Cruz</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wolframio</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>1</td>
                     <td>1</td>
                     <td>2</td>
+                </tr>
+                <tr>
+                    <td>Azurri</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Showtime</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Lycaon FC</td>
                     <td>2</td>
-                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
                 </tr>
             </table>
+            </div>
         </section>
     
-        <section class="noticias">
-            <h2 class="noticias__titulo">Últimas novedades</h2>
-            <article>
-                <h3 class="noticias__titulosH3">Gran victoria de Mapuchetos</h3>
-                <img src="images/fotodelequipo.jpeg" alt="Equipo Mapuchetos FC" class="noticias__fotoUno">
-                <p class="noticias__texto">El domingo por la mañana se disputó el encuentro entre Mapuchetos FC vs. 25 de
+        <section class="novedades row">
+            <div>
+            <h2 class="tituloNovedades">Últimas novedades</h2>
+            </div>
+            <article class="col-lg-4">
+                <h3 class="tituloNoticias">Gran victoria de Mapuchetos</h3>
+                <img src="images/fotodelequipo.jpeg" alt="Equipo Mapuchetos FC" class="fotoNoticias">
+                <p class="textoNoticias">El domingo por la mañana se disputó el encuentro entre Mapuchetos FC vs. 25 de
                     Mayo en el predio de DockSud por la 6° fecha del torneo de verano "El Trébol". El triunfo quedó en manos
                     del Tricolor que goleó y gustó. La victoria fue contundente, 4-0 para los Neuquinos. El primer tiempo
                     fue ampliamente dominado por el puntero del campeonato, que no erró y acertó una eficacía de 100% tiros
@@ -110,18 +141,18 @@
                     Mapuchetos sentenció el 4-0 final. Los goleadores del encuentro fueron: Joa Ibañez (x2), Nogueira e
                     Ismael Contreras.</p>
             </article>
-            <article>
-                <h3 class="noticias__titulosH3">Convocados para enfrentar a 25 de Mayo</h3>
-                <img src="images/convocados.jpeg" alt="Lista de conovocados" class="noticias__fotoDos">
-                <p class="noticias__texto">El DT de Mapuchetos FC, Seba E., dio la lista de convocados que se enfrentará a
+            <article class="col-lg-4">
+                <h3 class="tituloNoticias">Convocados para enfrentar a 25 de Mayo</h3>
+                <img src="images/convocados.jpeg" alt="Lista de conovocados" class="fotoNoticias">
+                <p class="textoNoticias">El DT de Mapuchetos FC, Seba E., dio la lista de convocados que se enfrentará a
                     25 de Mayo el domingo 27 de marzo por la 6ta fecha del Torneo de verano "EL Trébol". Con una lista total
                     de 17 jugador a disposición del técnico, "El Tricolor" se prepara de la mejor manera para una nueva
                     jornada luego contundente victoria por 3-0 vs. Showtime en la quinta fecha del torneo de verano.</p>
             </article>
-            <article>
-                <h3 class="noticias__titulosH3">Goleada de Mapuchetos</h3>
-                <img src="images/FotoEquipo2.jpeg" alt="Foto de la Re-Cantera" class="noticias__fotoTres">
-                <p class="noticias__texto">Este domingo, por la 5° fecha del torneo de verano, Mapuchetos venció 3-0 a
+            <article class="col-lg-4">
+                <h3 class="tituloNoticias">Goleada de Mapuchetos</h3>
+                <img src="images/FotoEquipo2.jpeg" alt="Foto de la Re-Cantera" class="fotoNoticias">
+                <p class="textoNoticias">Este domingo, por la 5° fecha del torneo de verano, Mapuchetos venció 3-0 a
                     Showtime en un partido perfecto para el tricolor. Comenzó dominando desde el minuto 1 y hasta finalizar
                     el encuentro el rival no pudo ni siquiera acertar un tiro al arco. El primero gol lo concretó Luca
                     Ratto, quien fue la figura del partido. Mientras que Joa Ibañez finalizó con un doblete, lo que lo pone
@@ -134,11 +165,11 @@
 
     <footer> 
 
-        <div class="gridFooter">
+        <div">
             <div class="tituloFooter">
                 <h4>Seguinos en redes</h4>
             </div>
-            <div class="icono">
+            <div class="iconosFooter">
                 <a href="https://www.instagram.com/mapuchetos/" class="footerIcono"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.youtube.com/user/mapuchetos" class="footerIcono"><i class="bi bi-youtube"></i></a>
                 <a href="https://www.facebook.com/Mapuchetos/" class="footerIcono"><i class="bi bi-facebook"></i></a>
@@ -154,6 +185,7 @@
 
     <!--Script de bootstrap-->
     <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 
 </html>

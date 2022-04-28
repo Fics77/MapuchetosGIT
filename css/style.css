@@ -8,116 +8,111 @@ body {
     font-family: sans-serif;
 }
 
+/*Acá empieza el header*/
+
 header{
     background-color: #0d0e40;
-}
-
-.gridHeader{
-    display: grid;
-    grid-template-areas: 
-    "logo titulo redesSociales"
-    "nav nav nav";
-    grid-template-columns: 15% 70% 15%;
-}
-
-.logo{
-    grid-area: logo;
-}
-
-.titulo{
-    grid-area: titulo;
-}
-
-.redesSociales{
-    grid-area: redesSociales;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-
-.nav{
-    grid-area: nav;
-    display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(#0d0e40, #a60000);
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 a   {
     text-decoration: none;
 }
-.navbar{
-    color: black;
-    min-width: 120px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: white;
-    border-radius: 5%;
-}
 
-.headerlogo{
+.logo{
     width: 120px;
 }
 
-.headertexto{
+.tituloHeader{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 90px;
     text-align: center;
-    margin-top: 15px;
 }
 
-.headerredSocial{
-    font-size: 25px;
-    margin: 0px 8px 0px 8px;
+.iconosHeader{
+    padding-top: 80px;
+}
+
+.iconoHeader{
+    font-size: 24px;
+    margin: 0px 6px 0px 6px;
     color: rgb(105, 99, 99);
 }
 
-.navbar:hover{
-    background-color:rgb(190, 182, 182)
+.nav{
+    justify-content: space-evenly;
+    background-image: linear-gradient(#0d0e40, #a60000);
+    padding-bottom: 10px;
 }
+
+.navbar{
+    color: black;
+    padding: 2px 5px 2px 5px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.navbar:hover{
+    background-color:rgb(143, 134, 134);
+}
+
+/*Acá empieza la información de la página*/
 
 .tabla{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
 }
 
-.tabla__titulo{
+.tituloPrincipalTabla{
     color: black;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    border: 3px solid;
-    border-radius: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
-.tabla__tabla{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
-    background-color: lightgreen;
-    font-size: 30px;
-    margin-left: 385px;
-}
-
-.noticias{
-    text-align: center;
-}
-
-.noticias__titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    margin-top: 10px;
-    border: 3px solid;
-    border-radius: 15px;
-}
-
-.noticias__titulosH3{
+.tituloSecundarioTabla{
     font-size: 40px;
+    text-align: center;
+    color: white;
 }
 
+.tablaTabla{
+    color: black;
+    background-color: #12135c;
+    font-size: 30px;
+    border: solid;
+}
 
-.noticias__texto{
+td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+.novedades{
+    text-align: center;
+}
+
+.tituloNovedades{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.tituloNoticias{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.textoNoticias{
+    color: black;
     font-size: 18px;
     font-weight: 300px;
     text-align: justify;
@@ -125,55 +120,36 @@ a   {
     padding-left: 30px;
 }
 
-
-.noticias__fotoUno{
-    width: 60%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+article{
+    border: 2px solid black;
 }
 
-.noticias__fotoDos{
-    width: 40%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.fotoNoticias{
+    width: 80%;
+    margin: 10px 0px 10px 0px;
+    transition: all 2s;
 }
 
-.noticias__fotoTres{
-    width: 40%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.fotoNoticias:hover{
+    transform: scale(2,2);
+    width: 200px;
 }
+
+/*Acá empieza el footer*/
 
 footer{
     background-image: linear-gradient(#a60000,#0d0e40);
 }
 
-.gridFooter{
-    display: grid;
-    grid-template-areas:
-    "tituloFooter"
-    "icono"
-    "derechos";
+.iconosFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .tituloFooter{
-    grid-area: tituloFooter;
-}
-
-.icono{
-    grid-area: icono;
-    display: inline;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.derechos{
-    grid-area: derechos;
-}
-
-h4{
-    font-size: 30px;
+    color: black;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -182,22 +158,7 @@ h4{
 }
 
 .footerDerechos{
+    color: black;
     text-align: center;
     font-size: 10px;
-}
-
-
-/*768*/
-/*desde es min-width*
-  hasta max-width/
-/*360*/
-
-@media (max-width: 768px) {
-    .gridHeader{
-        grid-template-areas:
-        "logo"
-        "titulo"
-        "redesSociales"
-        "nav";
-    }
 }
