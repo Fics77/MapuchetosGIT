@@ -120,10 +120,9 @@ th{
     padding-left: 30px;
 }
 
-article{
+.articleIndex{
     border: 2px solid black;
 }
-
 .fotoNoticias{
     width: 80%;
     margin: 10px 0px 10px 0px;
@@ -137,7 +136,7 @@ article{
 
 /*Acá empieza el footer*/
 
-footer{
+.footerIndex{
     background-image: linear-gradient(#a60000,#0d0e40);
 }
 
@@ -162,3 +161,85 @@ footer{
     text-align: center;
     font-size: 10px;
 }
+
+/*Acá empieza la sección "El Club"*/
+/*Acá empieza el header*/
+
+.bodyElClub{
+    background-image: linear-gradient(#0d0e40, white, #a60000);
+}
+
+.navElClub{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.navbarEC{
+    color: black;
+    padding: 2px 5px 2px 5px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.navbar:hover{
+    background-color:rgb(143, 134, 134);
+}
+
+.elClub{
+    padding-top: 10px;
+}
+
+.tituloPrincipalElClub{
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.tituloAutoridades{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+.mainElClub{
+    margin-right: 10px;
+}
+
+
+.tituloSecundarioAutoridades{
+    background-color: #0d0e40;
+    color: black;
+    text-align: center;
+}
+
+.primeraLinea{
+    padding-top: 10px;
+}
+
+.segundaLinea{
+    padding-top: 30px;
+}
+
+.terceraLinea{
+    padding-top: 30px;
+}
+
+.articleAutoridades{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.personas{
+    font-size: 25px;
+    color: black;
+}
+
+.footerElClub{
+    padding-top: 40px;
+}
+
