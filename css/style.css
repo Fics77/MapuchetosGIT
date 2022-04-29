@@ -4,14 +4,16 @@
 }
 
 body {
-    background-color: #a60000;
-    font-family: sans-serif;
+    background-image: linear-gradient(rgb(44, 44, 102), rgb(21, 21, 48));
 }
 
-/*Acá empieza el header*/
+
 
 header{
-    background-color: #0d0e40;
+    background-image: url(../images/fotodelequipo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 a   {
@@ -19,7 +21,7 @@ a   {
 }
 
 .logo{
-    width: 120px;
+    width: 130px;
 }
 
 .tituloHeader{
@@ -30,54 +32,60 @@ a   {
 }
 
 .iconosHeader{
-    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 }
 
 .iconoHeader{
     font-size: 24px;
     margin: 0px 6px 0px 6px;
-    color: rgb(105, 99, 99);
+    color: rgb(218, 209, 209);
+}
+
+.iconoHeader:hover{
+    transform: scale(1.4);
 }
 
 .nav{
     display: flex;
     flex: row;
-    justify-content: space-evenly;
-    background-image: linear-gradient(#0d0e40, #a60000);
+    justify-content: center;
+    font-size: 30px;
 }
 
 
 .navbar{
-    color: black;
+    color: white;
     padding: 2px 5px 2px 5px;
-    background-color: white;
-    border-radius: 15%;
+    background-color: rgb(197, 174, 174);
+    margin: 0px 10px 0px 10px;
+    transform: scale(1);
 }
 
 .navbar:hover{
-    background-color:rgb(143, 134, 134);
+    transform: scale(1.2);
 }
 
 /*Acá empieza la información de la página*/
 
-.tabla{
-    padding: 10px 0px 10px 0px;
-}
-
 .tituloPrincipalTabla{
-    color: black;
-    font-size: 60px;
+    color: rgb(146, 40, 40);
+    font-size: 70px;
     text-align: center;
-    border: 3px solid black;
-    border-radius: 10px;
+    text-decoration: underline;
 }
 
 .tituloSecundarioTabla{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    color: black
-}
+    color: black;
 
+    border-radius: 10px;
+}
+.tabla{
+    padding: 10px 0px 10px 0px;
+}
 .tablaTabla{
     color: black;
     font-size: 30px;
@@ -153,10 +161,6 @@ th{
 }
 
 /*Acá empieza el footer*/
-
-.footerIndex{
-    background-image: linear-gradient(#a60000,#0d0e40);
-}
 
 .iconosFooter{
     display: flex;
