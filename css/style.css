@@ -40,9 +40,8 @@ a   {
 }
 
 .nav{
-    justify-content: space-evenly;
+
     background-image: linear-gradient(#0d0e40, #a60000);
-    padding-bottom: 10px;
 }
 
 .navbar{
@@ -74,14 +73,26 @@ a   {
 .tituloSecundarioTabla{
     font-size: 40px;
     text-align: center;
-    color: white;
+    color: black
 }
 
 .tablaTabla{
     color: black;
-    background-color: #12135c;
     font-size: 30px;
-    border: solid;
+    background-color: rgb(207, 171, 171); 
+}
+
+.zonaA{
+    background-color: #18183a;
+    text-align: start;
+}
+
+.equipo{
+    text-align: start;
+}
+
+.equipoPropio{
+    background-color: rgb(204, 128, 128);
 }
 
 td{
@@ -90,6 +101,11 @@ td{
 }
 
 th{
+    text-align: center;
+}
+
+.textoTabla{
+    color: black;
     text-align: center;
 }
 
@@ -108,7 +124,7 @@ th{
 .tituloNoticias{
     font-size: 40px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .textoNoticias{
@@ -203,11 +219,6 @@ th{
     font-size: 40px;
     color: black;
 }
-
-.mainElClub{
-    margin-right: 10px;
-}
-
 
 .tituloSecundarioAutoridades{
     background-color: #0d0e40;
