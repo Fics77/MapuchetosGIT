@@ -26,7 +26,7 @@ a   {
 
 .tituloHeader{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(146, 40, 40);
     font-size: 90px;
     text-align: center;
 }
@@ -40,7 +40,6 @@ a   {
 .iconoHeader{
     font-size: 24px;
     margin: 0px 6px 0px 6px;
-    color: rgb(218, 209, 209);
 }
 
 .iconoHeader:hover{
@@ -51,15 +50,14 @@ a   {
     display: flex;
     flex: row;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-
 .navbar{
-    color: white;
+    color: black;
     padding: 2px 5px 2px 5px;
-    background-color: rgb(197, 174, 174);
-    margin: 0px 10px 0px 10px;
+    background-color: rgb(175, 137, 137);
+    margin: 0px 5px 0px 5px;
     transform: scale(1);
 }
 
@@ -73,15 +71,14 @@ a   {
     color: rgb(146, 40, 40);
     font-size: 70px;
     text-align: center;
-    text-decoration: underline;
 }
 
 .tituloSecundarioTabla{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: black;
-
-    border-radius: 10px;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
 }
 .tabla{
     padding: 10px 0px 10px 0px;
@@ -166,6 +163,10 @@ th{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.footerIcono:hover{
+    transform: scale(1.4);
 }
 
 .tituloFooter{
