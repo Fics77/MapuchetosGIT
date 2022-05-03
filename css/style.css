@@ -10,7 +10,7 @@ body {
 .headerIndex{
     background-image: url(../images/fotodelequipo.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -28,6 +28,13 @@ a   {
     font-size: 90px;
     text-align: center;
 }
+
+@media (max-width: 900px) and (min-width: 320px){
+    .tituloHeader{
+        font-size: 50px;
+    }
+}
+
 
 .iconosHeader{
     display: flex;
