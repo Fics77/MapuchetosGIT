@@ -7,13 +7,6 @@ body {
     background-color: rgb(21, 21, 48);
 }
 
-.headerIndex{
-    background-image: url(../images/fotodelequipo.jpeg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 a   {
     text-decoration: none;
 }
@@ -25,7 +18,7 @@ a   {
 .tituloHeader{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 90px;
+    font-size: 110px;
     text-align: center;
 }
 
@@ -53,15 +46,12 @@ a   {
 .nav{
     display: flex;
     flex: row;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 25px;
 }
 
 .navbar{
-    color: black;
-    padding: 2px 5px 2px 5px;
-    background-color: white;
-    margin: 0px 5px 0px 5px;
+    color: white;
     transform: scale(1);
 }
 
@@ -70,6 +60,12 @@ a   {
 }
 
 /*Acá empieza la información de la página*/
+
+.carrusel{
+    width: 50%;
+    margin-left: 25%;
+}
+
 
 /*Acá empieza la información de la tabla de posiciones*/
 
@@ -99,6 +95,7 @@ a   {
 .zonaA{
     background-color: #18183a;
     text-align: start;
+    color: rgb(207, 171, 171)
 }
 
 .equipo{
@@ -119,7 +116,7 @@ th{
 }
 
 .textoTabla{
-    color: black;
+    color: rgb(119, 115, 115);
     text-align: center;
 }
 
@@ -144,7 +141,7 @@ th{
 }
 
 .textoNoticias{
-    color: black;
+    color: rgb(119, 115, 115);
     font-size: 18px;
     font-weight: 300px;
     text-align: justify;
@@ -176,7 +173,7 @@ th{
 }
 
 .tituloFooter{
-    color: black;
+    color: rgb(119, 115, 115);
     font-size: 50px;
     text-align: center;
 }
