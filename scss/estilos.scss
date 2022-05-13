@@ -1,12 +1,16 @@
-.card{
-    font-size: 20px;
-}
-
-
-
-/*
 @import "variables";
 
 @import "pages/elclub";
 @import "pages/galeria";
+@import "pages/nosotros";
+@import "pages/noticias";
 
+.nav{
+    .a{
+        font-size: 24px;
+        margin: 0px 6px 0px 6px;
+    }
+    &:hover{
+        transform: scale(1.5);
+    }
+}
