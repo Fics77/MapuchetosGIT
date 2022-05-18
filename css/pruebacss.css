@@ -1,3 +1,51 @@
+/*Mapas*/
+.btn-primary {
+  background-color: #151530; }
+
+.btn-secundary {
+  background-color: #922828; }
+
+.btn-success {
+  background-color: green; }
+
+.btn-warning {
+  background-color: yellow; }
+
+.btn-normal {
+  background-color: white; }
+
+.text-primary {
+  color: #151530; }
+
+.text-secundary {
+  color: #922828; }
+
+.text-success {
+  color: green; }
+
+.text-warning {
+  color: yellow; }
+
+.text-normal {
+  color: white; }
+
+/*extend*/
+.navvIndex, .navvSecciones {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  font-size: 25px; }
+
+.navvSecciones {
+  justify-content: space-around;
+  align-items: center; }
+
+/*Mixin*/
+.fotoPagina {
+  border-radius: 10px;
+  width: 150px;
+  height: 100px; }
+
 body {
   background-color: #151530; }
 
@@ -18,3 +66,19 @@ titulo {
 
 .nav:hover {
   transform: scale(1.5); }
+
+p {
+  font-size: 40px; }
+
+/*Mapas*/
+.btn-primary {
+  background-color: blue; }
+
+.btn-secundary {
+  background-color: grey; }
+
+.btn-success {
+  background-color: green; }
+
+.btn-warning {
+  background-color: yellow; }

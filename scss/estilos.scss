@@ -14,3 +14,17 @@
         transform: scale(1.5);
     }
 }
+
+p{
+    font-size: 20px *2;
+}
+
+/*Mapas*/
+
+$colores: ("primary" blue, "secundary" grey, "success" green, "warning" yellow);
+
+@each $name, $color in $colores{
+    .btn-#{$name}{
+        background-color: $color;
+    }
+}

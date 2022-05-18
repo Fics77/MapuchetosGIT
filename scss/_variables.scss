@@ -3,3 +3,44 @@ $colorTitulo: rgb(146, 40, 40);
 $tamanioTitulo: 65px;
 $tamanioTituloNoticias: 30px;
 $tamanioFotoNoticias: 40px;
+
+/*Mapas*/
+
+$colores: ("primary" rgb(21, 21, 48), "secundary" rgb(146, 40, 40), "success" green, "warning" yellow, "normal" white);
+
+@each $name, $color in $colores{
+    .btn-#{$name}{
+        background-color: $color;
+    }
+}
+
+@each $name, $color in $colores{
+    .text-#{$name}{
+        color: $color;
+    }
+}
+
+/*extend*/
+.navvIndex{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.navvSecciones{
+    @extend .navvIndex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Mixin*/
+@mixin formatter ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.fotoPagina{
+    border-radius: 10px;
+    @include formatter(150px, 100px)
+}
