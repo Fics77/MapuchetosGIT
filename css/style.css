@@ -17,12 +17,13 @@ a   {
 
 .tituloHeader{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(146, 40, 40);
     font-size: 110px;
     text-align: center;
+    text-shadow: 4px 0px 0px rgb(146, 137, 137);
 }
 
-@media (max-width: 900px) and (min-width: 320px){
+@media (max-width: 900px) and (min-width: 400px){
     .tituloHeader{
         font-size: 50px;
     }
@@ -74,14 +75,14 @@ a   {
     font-size: 70px;
     text-align: center;
     border-bottom: 1px solid white;
-    padding-bottom: 15px;
+    padding-bottom: 15px;    
 }
 
 .tituloSecundarioTabla{
     font-size: 40px;
     text-align: center;
     color: white;
-
+    text-shadow: 4px 0px 0px rgb(51, 49, 49);
 }
 .tabla{
     padding: 10px 0px 10px 0px;
@@ -138,6 +139,7 @@ th{
     font-size: 40px;
     text-align: center;
     color: white;
+    text-shadow: 4px 0px 0px rgb(51, 49, 49);
 }
 
 .textoNoticias{
@@ -259,7 +261,7 @@ th{
 
 .personas{
     font-size: 25px;
-    color: black;
+    color: rgb(119, 115, 115);
 }
 
 .footerElClub{
@@ -312,5 +314,5 @@ th{
 }
 
 .textoContactanos{
-    color: black;
+    color: rgb(119, 115, 115);
 }
